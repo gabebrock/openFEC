@@ -25,9 +25,11 @@ get_candidate <- function (candidate_id, clean = TRUE) {
     httr2::resp_body_json()
 
   if (isTRUE(clean)) {
-    resp |>
+    out <- resp |>
       list_to_row() |>
       add_singletons(resp)
+
+    out[[3]][[1]]
   } else {
     resp
   }
