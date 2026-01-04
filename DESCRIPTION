@@ -15,3 +15,5 @@ Description: Download and read data on federal elections contributions in the Un
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/gabebrock/openFEC
+BugReports: https://github.com/gabebrock/openFEC/issues
