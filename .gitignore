@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.env
+.Renviron
+.httr-oauth
+.DS_Store
+.quarto
+docs
