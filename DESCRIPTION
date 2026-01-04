@@ -1,12 +1,13 @@
 Package: openFEC
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Interact with the Federal Election Commission (FEC) campaign filing API
 Version: 0.1.0
 Authors@R: c(
     person(
       "Gabriel", "Brock",
       email = "gbrock@college.harvard.edu",
-      role = c("aut", "cre")
+      role = c("aut", "cre"),
+      comment = c(ORCID = "0009-0005-6958-9516"))
     )
   )
 Description: Download and read data on federal elections contributions in the United States.
