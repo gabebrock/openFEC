@@ -1,0 +1,17 @@
+Package: openFEC
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Gabriel", "Brock",
+      email = "gbrock@college.harvard.edu",
+      role = c("aut", "cre")
+    )
+  )
+Description: Download and read data on federal elections contributions in the United States.
+    Data is queried from the FEC's Application Programming Interface. 
+    (<https://api.open.fec.gov/developers/>) 
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
